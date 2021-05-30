@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>UNDERTALE Engine Unofficial docs.</title>
+  </head>
+  <body>
+      <div class="jumbotron">
+        <h1 class="display-4"><strong>UNDERTALE Engine Unofficial docs.</strong></h1>
+        <p class="lead">Welcome to my simple turorial about starting with Undertale Engine!</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="#downloading-the-engine." role="button">Get Started</a>
+      </div>
+
+      <div class="jumbotron" id="index">
+       <h1>Index:</h1>
+       <ol class="lead">
+           <li><a href="#downloading-the-engine.">Downloading the engine.</a></li>
+           <li><a href="#learning-gms.">Learning Game Maker.</a></li>
+           <li><a href="#starting-with-engine.">Starting using engine.</a></li>
+           <li><a href="#alternatives.">Alternatives to use this engine.</a></li>
+       </ol>
+      </div>
+
+      <div class="lead jumbotron" id="downloading-the-engine.">
+        <h1>Downloading the engine.</span></h1>
+        <hr class="my-4">
+        <p>To use this engine, you need Game Maker 2.</p>
+        <p>Game Maker Studio 2 is at $39 per year, it is also at $99 to have it permanently.</p>
+        <p>You need of minimiun the version 1.4 but here is a link to recommended version:</p>
+        <p><a href=https://gms.yoyogames.com/GameMakerStudio-Installer-2.2.5.481.exe>https://gms.yoyogames.com/GameMakerStudio-Installer-2.2.5.481.exe</a></p>
+        <p><em><strong>WARNING:</strong></em> Don't use pirated versions because your computer will have a virus or a malware... right?</p>
+        <p>Then, when you have Game Maker 2, follow these steps:</p>
+        <ol class="lead">
+          <li>Go to the engine github: <a href=https://github.com/Animelici804/undertale_engine_legacy>https://github.com/Animelici804/undertale_engine_legacy</a> (This isn't the original github, but original engine was canceled. also original link is: <a href=https://github.com/TML233/undertale_engine_legacy>https://github.com/TML233/undertale_engine_legacy</a>)</li>
+          <li>Fork the engine with the button Fork.</li>
+          <li>Download GitHub Desktop (<a href=https://desktop.github.com/>https://desktop.github.com/</a>)</li>
+          <li>Clone the repository to your computer.</li>
+          <li>After finishing cloning, click <strong>Branch</strong> → <strong>New branch</strong>, create a branch based on <em>the master branch</em>. You will develop your game on this new branch(hereafter referred to as <em>the game branch</em>).</li>
+          <li>Click <strong>Show in Explorer</strong> And open the file named undertale_engine</li>
+        </ol>
+        <p>With that, you can start using engine.</p>
+      </div>
+
+      <div class="lead jumbotron" id="learning-gms.">
+        <h1>Learning Game Maker</span></h1>
+        <hr class="my-4">
+        <p>To use this engine you need to know about GML basics. I recommend these channels to start:</p>
+        <p><strong>Let's learn Game Maker</strong></p>
+        <p><a href=https://www.youtube.com/c/letslearngamemaker/playlists>https://www.youtube.com/c/letslearngamemaker/playlists</a></p>
+        <p>-For the newest of beginners. Learn the interface and the basics of GMS</p>
+
+        <p><strong>Space Rocks YoYoGames tutorial</strong></p>
+        <p><a href=https://www.youtube.com/watch?v=raGK_j1NVdE>https://www.youtube.com/watch?v=raGK_j1NVdE</a></p>
+        <p>-Space Rocks, an easy to understand beginner's course to learning GMS. I recommend just jumping in with the code version and not the drag and drop.</p>
+
+        <p><strong>Game Maker Station Matharoo</strong></p>
+        <p><a href=https://www.youtube.com/c/GameMakerStationMatharoo/playlists>https://www.youtube.com/c/GameMakerStationMatharoo/playlists</a></p>
+        <p>-Matharoo has many videos covering a great range of concepts for beginners and beyond.</p>
+
+        <p><strong>Shaun Spalding</strong></p>
+        <p><a href=https://www.youtube.com/c/ShaunSpalding/playlists>https://www.youtube.com/c/ShaunSpalding/playlists</a></p>
+        <p>-Shaun has many tutorial video series that cover games like platformers and action rpgs. Great knowledge from here can be transferred to your Undertale Fangame. Slightly more advanced than the other options here.</p>
+
+        <p><strong>Cosmonaut</strong></p>
+        <p><a href=https://www.youtube.com/c/FriendlyCosmonaut/playlists>https://www.youtube.com/c/FriendlyCosmonaut/playlists</a></p>
+        <p>-Cosmonaut has tutorials and topics on subjects that are a little more advanced, but still great information on making games.</p>
+      </div>
+
+      <div class="lead jumbotron" id="starting-with-engine.">
+        <h1>Starting with engine.</span></h1>
+        <hr class="my-4">
+        <p><em><strong>WARNING:</strong></em> Don't change the project name or you will have problems updating engine.</p>
+        <p>Open <strong>Options</strong> → <strong>Windows</strong> in the <strong>Resources</strong> window. Change the value of the <strong>Executable Name</strong> box to your game name. Don’t forget to click <strong>OK</strong>!</p>
+        <p>Open the script <strong>Macro_Game</strong>, change undertale_engine in <code>#macro GAME_NAME “undertale_engine”</code> to your game name. For example:</p>
+        <code>
+          #macro GAME_NAME "undertale_a_new_hope"
+        </code>
+        <p>Save the script.</p>
+        <h2>Updating engine</h2>
+        <p>When there’s a update, checkout <em>the master branch</em>, click <strong>Update from …</strong> in Github Desktop. If there are merge conflicts, fix it. Then checkout <em>the game branch</em>, merge <em>the master branch</em> into <em>the game branch</em>. If there are merge conflicts, fix it.</p>
+        <h2>Learning engine</h2>
+        <p>This engine has so much things to learn. Here is documentation link:</p>
+        <p><a href=https://docs.google.com/document/d/1Z3522rB_iudRIpaj6EOw9KFZJre4gA3ZzgC5G-CM8WQ/edit?usp=sharing>https://docs.google.com/document/d/1Z3522rB_iudRIpaj6EOw9KFZJre4gA3ZzgC5G-CM8WQ/edit?usp=sharing</a></p>
+      </div>
+
+      <div class="lead jumbotron" id="alternatives.">
+        <h1>Alternatives to use this engine.</span></h1>
+        <hr class="my-4">
+        <p><em><strong>REMEMBER:</strong></em>  Gamemaker is not a program we recommend pirating for. You'll very likely be hit with a virus or some other form of malware. Please only use the free trials yoyo games offers, or buy the product. Your computer safety comes first. Please note the alternatives mentioned here are unaffiliated with us, and are just my own recommendations.</p>
+        <h2>Scratch engine</h2>
+        <p><a href=https://scratch.mit.edu/projects/224896574/#player>https://scratch.mit.edu/projects/224896574/#player</a></p>
+        <p>-Extremely beginner friendly and free. Only battle</p>
+        <h2>Unitale/Choose Your Frisk/Choose Your Kris</h2>
+        <p><a href=https://www.reddit.com/r/Unitale/comments/akhrcs/download_links_guides_and_help_for_unitale_and/>https://www.reddit.com/r/Unitale/comments/akhrcs/download_links_guides_and_help_for_unitale_and/</a></p>
+        <p>-Both an Undertale Engine and Deltarune Engine. Battle/Overworld</p>
+        <p>While it uses LUA, a beginner's programing language, learning how to use CYF/CYK is a learning curve and can be confusing to new comers. CYF is a fork of Unitale. You do not need a copy of Unity to run or make your own Undertale battle, but will be necessary for the overworld. You can get around this with a mod of CYF that has a scripting version of the overworld. Unity however is not beginner free, so if you do choose to make your overworld in unity, understand Unity was made for 3d and can be less intuitive to learn. The actual programming of the engine is beginner free, while Unity is less so.</p>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
