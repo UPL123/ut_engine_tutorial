@@ -81,7 +81,7 @@ Open **Options** → **Windows** in the **Resources** window. Change the value o
 Open the script `Macro_Game`, change undertale_engine in `#macro GAME_NAME “undertale_engine"` to your game name. For example:
 
 ```gml
-macro GAME_NAME "undertale_a_new_hope"
+#macro GAME_NAME "undertale_a_new_hope"
 ```
 Save the script.
 
