@@ -15,7 +15,7 @@ Index:
       * [Learning engine](#learning-engine)
    * [Alternatives to use this engine.](#alternatives-to-use-this-engine)
       * [Scratch engine](#scratch-engine)
-      * [Unitale/Choose Your Frisk/Choose Your Kris](#unitale-choose-your-frisk-choose-your-kris)
+      * [Unitale/Choose Your Frisk/Choose Your Kris](#unitalechoose-your-friskchoose-your-kris)
 <!--te-->
 
 Downloading the engine.
