@@ -1,9 +1,26 @@
-#UNDERTALE Engine Start Tutorial
+# UNDERTALE Engine Start Tutorial
 Welcome to my simple turorial about starting with Undertale Engine!
 
-[TOCM]
+Index:
+<!--ts-->
+   * [Downloading the engine.](#downloading-the-engine)
+   * [Learning Game Maker.](#learning-game-maker)
+      * [Lets learn Game Maker](#lets-learn-game-maker)
+      * [Space Rocks YoYoGames tutorial](#space-rocks-yoyogames-tutorial)
+      * [Game Maker Station Matharoo](#game-maker-station-matharoo)
+      * [Shaun Spalding](#shaun-spalding)
+      * [Cosmonaut](#cosmonaut)
+   * [Starting with engine.](#starting-with-engine)
+      * [Updating engine](#updating-engine)
+      * [Learning engine](#learning-engine)
+   * [Alternatives to use this engine.](#alternatives-to-use-this-engine)
+      * [Scratch engine](#scratch-engine)
+      * [Unitale/Choose Your Frisk/Choose Your Kris](#unitale-choose-your-frisk-choose-your-kris)
+<!--te-->
 
-#Downloading the engine.
+Downloading the engine.
+============
+
 To use this engine, you need Game Maker 2.
 
 Game Maker Studio 2 is at **$39** per year, it is also at **$99** to have it permanently.
@@ -25,34 +42,41 @@ Then, when you have Game Maker 2, follow these steps:
 
 With that, you can start using engine.
 
-#Learning Game Maker
+Learning Game Maker
+===========
 To use this engine you need to know about GML basics. 
 I recommend these channels to start:
 
-##Lets learn Game Maker
+Lets learn Game Maker
+-------------
 https://www.youtube.com/c/letslearngamemaker/playlists
 -For the newest of beginners. Learn the interface and the basics of GMS
 
-##Space Rocks YoYoGames tutorial
+Space Rocks YoYoGames tutorial
+-------------
 https://www.youtube.com/watch?v=raGK_j1NVdE
 -Space Rocks, an easy to understand beginner's course to learning GMS. I recommend just jumping in with the code version and not the drag and drop.
 
-##Game Maker Station Matharoo
+Game Maker Station Matharoo
+-------------
 https://www.youtube.com/c/GameMakerStationMatharoo/playlists
 -Matharoo has many videos covering a great range of concepts for beginners and beyond.
 
-##Shaun Spalding
+Shaun Spalding
+------------
 https://www.youtube.com/c/ShaunSpalding/playlists
 -Shaun has many tutorial video series that cover games like platformers and action rpgs. Great knowledge from here can be transferred to your Undertale Fangame. Slightly more advanced than the other options here.
 
-##Cosmonaut
+Cosmonaut
+--------------
 https://www.youtube.com/c/FriendlyCosmonaut/playlists
 -Cosmonaut has tutorials and topics on subjects that are a little more advanced, but still great information on making games.
 
-#Starting with engine.
+Starting with engine
+===========
 WARNING: Don't change the project name or you will have problems updating engine.
 
-Open Options → Windows in the Resources window. Change the value of the Executable Name box to your game name. Don’t forget to click OK!
+Open **Options** → **Windows** in the **Resources** window. Change the value of the **Executable Name** box to your game name. Don’t forget to click **OK**!
 
 Open the script `Macro_Game`, change undertale_engine in `#macro GAME_NAME “undertale_engine"` to your game name. For example:
 
@@ -61,21 +85,26 @@ macro GAME_NAME "undertale_a_new_hope"
 ```
 Save the script.
 
-##Updating engine
+Updating engine
+----------
 When there’s a update, checkout the master branch, click Update from … in Github Desktop. If there are merge conflicts, fix it. Then checkout the game branch, merge the master branch into the game branch. If there are merge conflicts, fix it.
 
-##Learning engine
+Learning engine
+-----------
 This engine has so much things to learn. Here is documentation link:
 https://docs.google.com/document/d/1Z3522rB_iudRIpaj6EOw9KFZJre4gA3ZzgC5G-CM8WQ/edit?usp=sharing
 
-#Alternatives to use this engine.
+Alternatives to use this engine.
+==============
 REMEMBER: Gamemaker is not a program we recommend pirating for. You'll very likely be hit with a virus or some other form of malware. Please only use the free trials yoyo games offers, or buy the product. Your computer safety comes first. Please note the alternatives mentioned here are unaffiliated with us, and are just my own recommendations.
 
-##Scratch engine
+Scratch engine
+-----------
 https://scratch.mit.edu/projects/224896574/#player
 -Extremely beginner friendly and free. Only battle
 
-##Unitale/Choose Your Frisk/Choose Your Kris
+Unitale/Choose Your Frisk/Choose Your Kris
+=============
 https://www.reddit.com/r/Unitale/comments/akhrcs/download_links_guides_and_help_for_unitale_and/
 -Both an Undertale Engine and Deltarune Engine. Battle/Overworld
 
